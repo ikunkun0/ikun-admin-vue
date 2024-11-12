@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <RouterView />
+  <div>logi22n</div>
 </template>
 
 <style scoped></style>

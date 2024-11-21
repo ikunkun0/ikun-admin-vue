@@ -4,7 +4,7 @@ import { BasicRouteRecordRaw } from '../types'
 export const LoginRoute: BasicRouteRecordRaw = {
   path: '/login',
   name: LOGIN_NAME,
-  component: () => import('@/pages/system/login/index.vue'),
+  component: () => import('@/pages/login/index.vue'),
   meta: {
     title: '登录'
   }

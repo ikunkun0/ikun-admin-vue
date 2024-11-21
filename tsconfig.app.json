@@ -9,6 +9,8 @@
 
     /* Bundler mode */
     "moduleResolution": "Bundler",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     "allowImportingTsExtensions": true,
     "isolatedModules": true,
     "moduleDetection": "force",
@@ -24,7 +26,10 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"]
-    }
+    },
+    "jsxFactory": "h", // Vue 3 使用 "h" 或 "vue.createVNode"
+    "jsxFragmentFactory": "Fragment",
+    "types": ["element-plus/global", "vite/client", "@vue/runtime-dom"]
   },
   "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"]
 }

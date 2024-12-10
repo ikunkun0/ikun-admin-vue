@@ -8,7 +8,10 @@ import '@/styles/index.less'
 import 'uno.css'
 
 const app = createApp(App)
-
+console.log("test3")
+console.log("test3")
+console.log("test3")
+console.log("-test3-")
 async function setupApp() {
   // 初始化store
   setupStore(app)
@@ -18,3 +21,4 @@ async function setupApp() {
 }
 
 setupApp()
+console.log("test3")

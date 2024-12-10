@@ -9,6 +9,12 @@ import 'uno.css'
 
 const app = createApp(App)
 
+console.log('测试一下使用git')
+console.log('测试一下使用git')
+console.log('测试一下使用git')
+console.log('测试一下使用git')
+console.log('测试一下使用git')
+console.log('测试一下使用git')
 async function setupApp() {
   // 初始化store
   setupStore(app)
